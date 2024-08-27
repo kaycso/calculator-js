@@ -49,7 +49,7 @@ function verifyOperation() {
     console.log(operator, typeof operator)
     if (operator === '+') {
         result = sum(values[0], values[1])
-    } else if (operator === '-') {
+    } else if (operator === '−') {
         result = sub(values[0], values[1])
     } else if (operator === '÷') {
         result = div(values[0], values[1])
